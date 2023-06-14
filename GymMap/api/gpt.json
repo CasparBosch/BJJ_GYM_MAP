@@ -1,0 +1,64 @@
+{
+    "gyms": [
+      {
+        "title": "Gym 1",
+        "description": "Located in the heart of Rotterdam, Gym 1 offers world-class Brazilian Jiu-Jitsu training with experienced instructors.",
+        "latitude": 51.9225,
+        "longitude": 4.47917
+      },
+      {
+        "title": "Gym 2",
+        "description": "Situated near the Rotterdam Central Station, Gym 2 provides top-notch BJJ classes for practitioners of all skill levels.",
+        "latitude": 51.9229,
+        "longitude": 4.4700
+      },
+      {
+        "title": "Gym 3",
+        "description": "With a focus on technical excellence, Gym 3 in South Holland offers a welcoming environment for BJJ enthusiasts.",
+        "latitude": 51.9134,
+        "longitude": 4.4760
+      },
+      {
+        "title": "Gym 4",
+        "description": "Located in a vibrant neighborhood of Rotterdam, Gym 4 provides a variety of BJJ programs suitable for beginners and advanced practitioners alike.",
+        "latitude": 51.9123,
+        "longitude": 4.4342
+      },
+      {
+        "title": "Gym 5",
+        "description": "Gym 5 offers a friendly community and expert BJJ instruction to individuals looking to improve their skills in South Holland.",
+        "latitude": 51.9278,
+        "longitude": 4.4969
+      },
+      {
+        "title": "Gym 6",
+        "description": "Situated near the Maas River, Gym 6 is a well-established BJJ academy known for its dedicated trainers and comprehensive training programs.",
+        "latitude": 51.9103,
+        "longitude": 4.4718
+      },
+      {
+        "title": "Gym 7",
+        "description": "With a focus on self-defense and sport BJJ, Gym 7 in Rotterdam provides a safe and supportive environment for practitioners of all ages.",
+        "latitude": 51.9071,
+        "longitude": 4.4586
+      },
+      {
+        "title": "Gym 8",
+        "description": "Gym 8 offers BJJ classes taught by experienced black belt instructors, catering to both recreational practitioners and competitive athletes.",
+        "latitude": 51.9192,
+        "longitude": 4.4323
+      },
+      {
+        "title": "Gym 9",
+        "description": "Situated in the southern part of Rotterdam, Gym 9 focuses on the fundamentals of Brazilian Jiu-Jitsu, providing a solid foundation for all students.",
+        "latitude": 51.8907,
+        "longitude": 4.4824
+      },
+      {
+        "title": "Gym 10",
+        "description": "With state-of-the-art facilities and a team of dedicated instructors, Gym 10 offers a dynamic training experience for BJJ practitioners in South Holland.",
+        "latitude": 51.8961,
+        "longitude": 4.4702
+      }
+    ]
+  }

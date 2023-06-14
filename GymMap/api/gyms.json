@@ -1,0 +1,17 @@
+{
+    "gym":[
+        {"name":"Gracie Jiu Jitsu Gouda", 
+        "location":"Antwerpseweg 9, 2803 PB Gouda", 
+        "latitude":"52.020419", 
+        "longitude":"4.6850144"},
+
+        {"name":"Brazilian Jiu Jitsu Rotterdam", 
+        "location":"Prinsenlaan 80, 3066 KA Rotterdam", 
+        "latitude":"51.9394395", "longitude":"4.5549326"},
+
+        {"name":"BJJ Leiden", 
+        "location":"Kabelbaan 12A, 2352 BL Leiderdorp", 
+        "latitude":"52.1636762", 
+        "longitude":"4.5197899"}
+    ]
+}
