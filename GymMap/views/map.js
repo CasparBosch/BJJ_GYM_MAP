@@ -3,10 +3,9 @@ import { StatusBar } from 'expo-status-bar';
 import MapView from 'react-native-maps';
 import { StyleSheet, View } from 'react-native';
 
-export default function App() {
+export default function Map() {
   return (
     <View style={styles.container}>
-        // This is the map component
       <MapView style={styles.map} />
     </View>
   );

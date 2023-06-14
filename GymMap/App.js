@@ -3,44 +3,24 @@ import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import MapView from "react-native-maps";
 import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { useNavigation } from "@react-navigation/core";
+import Map from "./views/map.js";
+import Settings from "./views/settings.js";
+import Collection from "./views/collection.js";
+import Home from "./views/home.js";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
     return (
-        <View style={styles.container}>
-            <Text>Open up App.js to start working on your app!</Text>
-            <StatusBar style="auto" />
-          
-            <NavigationContainer>
-            style={styles.button}
-                onPress={() =>
-                    navigation.navigate("MapStack", { screen: "Maps" })
-                }
-            
-                <Text>Go to Map Tab</Text>
-            </NavigationContainer>
-            <NavigationContainer>
-            style={styles.button}
-                onPress={() =>
-                    navigation.navigate("SettingsStack", { screen: "Settings" })
-                }
-            </NavigationContainer>
-            <NavigationContainer>
-            style={styles.button}
-                onPress={() =>
-                    navigation.navigate("CollectionStack", {
-                        screen: "Collection",
-                    })
-                }
-            </NavigationContainer>
-            </View>
+        <NavigationContainer>
+            <Stack.Navigator>
+                <Stack.Screen name="Home" component={Home} />
+                <Stack.Screen name="Map" component={Map} />
+                <Stack.Screen name="Settings" component={Settings} />
+                <Stack.Screen name="Collection" component={Collection} />
+            </Stack.Navigator>
+        </NavigationContainer>
     );
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-});
