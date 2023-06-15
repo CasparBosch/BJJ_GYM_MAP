@@ -1,17 +1,81 @@
 {
     "gym":[
-        {"name":"Gracie Jiu Jitsu Gouda", 
+        {"title":"Gracie Jiu Jitsu Gouda", 
         "location":"Antwerpseweg 9, 2803 PB Gouda", 
         "latitude":"52.020419", 
         "longitude":"4.6850144"},
 
-        {"name":"Brazilian Jiu Jitsu Rotterdam", 
+        {"title":"Brazilian Jiu Jitsu Rotterdam", 
         "location":"Prinsenlaan 80, 3066 KA Rotterdam", 
-        "latitude":"51.9394395", "longitude":"4.5549326"},
+        "latitude":"51.9394395", 
+        "longitude":"4.5549326"},
 
-        {"name":"BJJ Leiden", 
+        {"title":"BJJ Leiden", 
         "location":"Kabelbaan 12A, 2352 BL Leiderdorp", 
         "latitude":"52.1636762", 
-        "longitude":"4.5197899"}
+        "longitude":"4.5197899"},
+
+        {
+        "title": "Haven BJJ Rotterdam",
+        "location": "Weena 1099, 3013 AL Rotterdam",
+        "latitude": 51.9229,
+        "longitude": 4.4700
+        },
+
+        {
+        "title": "Barraco Jiu Jitsu",
+        "location": "Van Speykstraat 109, 3014 VG Rotterdam",
+        "latitude": 51.9170798,
+        "longitude": 4.4656683
+        },
+
+        {
+        "title": "Team Agua",
+        "location": "Rijksboom 60, 3071 AX Rotterdam",
+        "latitude": 51.9100164,
+        "longitude": 4.5007521
+        },
+
+        {
+        "title": "Satsang BJJ Rotterdam",
+        "location": "Crooswijksestraat 93, 3034 AE Rotterdam",
+        "latitude": 51.9333948,
+        "longitude": 4.4910686
+        },
+
+        {
+        "title": "Ruthless Fight Compan",
+        "location": "Schoterboshof 5, 3032 CH Rotterdam",
+        "latitude": 51.9289781,
+        "longitude": 4.4799867
+        },
+
+        {
+        "title": "Jiu Jitsu Labs",
+        "location": "Westzeedijk 501P, 3024 EL Rotterdam",
+        "latitude": 51.9045043,
+        "longitude": 4.4557956
+        },
+
+        {
+        "title": "Erasmus BJJ Rotterdam",
+        "location": "Erasmus Sport, Burgemeester Oudlaan 50, 3062 PA Rotterdam",
+        "latitude": 51.9225,
+        "longitude": 4.47917
+        },
+
+        {
+            "title": "DFC Ridderkerk",
+            "location": "Reijerweg 249, 2983 AS Ridderkerk",
+            "latitude": 51.8809728,
+            "longitude": 4.5993248
+        },
+
+        {
+            "title": "Legacy mma Dordrecht",
+            "location": "Kolfstraat 42, 3311 XL Dordrecht",
+            "latitude": 51.8138675,
+            "longitude": 4.6698707
+        }
     ]
 }
