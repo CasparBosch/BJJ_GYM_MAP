@@ -11,6 +11,7 @@ import Collection from "./views/collection.js";
 import Home from "./views/home.js";
 import SideBar from "./src/components/SideBar/index.jsx";
 
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
