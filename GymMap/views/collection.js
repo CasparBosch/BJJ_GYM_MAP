@@ -1,7 +1,9 @@
+//imports
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
+//collection function, to showcase gym collection
 export default function Collection() {
   return (
     <View style={styles.container}>
@@ -11,6 +13,7 @@ export default function Collection() {
   );
 }
 
+//style
 const styles = StyleSheet.create({
   container: {
     flex: 1,
